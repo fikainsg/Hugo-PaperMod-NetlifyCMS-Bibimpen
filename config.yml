@@ -1,5 +1,5 @@
 baseURL: "/" # if your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
-title: BIBIMPEN
+title: 비빔펜(베타)
 paginate: 5
 theme: hugo-PaperMod
 
@@ -103,6 +103,7 @@ outputs:
         - JSON
 
 params:
+    themeVariant: "mine"
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
     description: "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
     author: Theme PaperMod
@@ -217,3 +218,4 @@ services:
         disableInlineCSS: true
     twitter:
         disableInlineCSS: true
+
