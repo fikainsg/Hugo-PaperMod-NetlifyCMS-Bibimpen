@@ -27,7 +27,7 @@ languages:
         menu:
             main:
                 - name: Archive
-                  url: archives
+                  url: archives/
                   weight: 5
                 - name: Search
                   url: search/
@@ -36,9 +36,9 @@ languages:
                   url: tags/
                   weight: 10
                 - name: 골프
-                  url: https://github.com/adityatelange/hugo-PaperMod/wiki/
+                  url: 골프/
                 - name: 싱가포르
-                  url: https://discord.gg/ahpmTvhVmp
+                  url: 싱가포르/
 
     fr:
         languageName: ":fr:"
