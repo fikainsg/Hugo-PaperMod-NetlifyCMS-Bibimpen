@@ -1,5 +1,5 @@
 baseURL: "/" # if your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
-title: 비빔펜(베타)
+title: INFPen
 paginate: 5
 theme: hugo-PaperMod
 
@@ -26,19 +26,21 @@ languages:
           series: series
         menu:
             main:
-                - name: Archive
+                - name: 전체글보기
                   url: archives/
                   weight: 5
-                - name: Search
+                - name: 검색
                   url: search/
-                  weight: 10
+                  weight: 50
                 - name: Tags
                   url: tags/
-                  weight: 10
+                  weight: 11
                 - name: 골프
                   url: 골프/
+                  weight: 10
                 - name: 싱가포르
                   url: 싱가포르/
+                  weight: 10
 
     fr:
         languageName: ":fr:"
@@ -219,3 +221,4 @@ services:
     twitter:
         disableInlineCSS: true
 
+pluralizelisttitles: false
